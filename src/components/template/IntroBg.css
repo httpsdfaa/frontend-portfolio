@@ -1,5 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Inria+Sans:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap');
+
+div.intro h2 {
+    color: #5323bb;
+    font-size: 55px;
+    margin: 10px;
+}
+
 div.intro p, h1 {
-    font-weight: 300;
+    color: white;
+    font-size: 85px;
+    margin: 10px;
 }
 
 div.intro h1 {
@@ -7,16 +17,21 @@ div.intro h1 {
 }
 
 div.intro p {
-    font-size: 18px;
-    max-width: 488px;
+    color: white;
+    font-size: 25px;
+    font-weight: 200;
+    margin: 10px;
 }
 
 section.intro {
     display: flex;
     flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
 }
 
-div.svg-bg {
+/*div.svg-bg {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -30,7 +45,7 @@ div.svg-bg a {
 
 div.svg-bg img {
    max-width: 600px;
-}
+}*/
 
 
 /* ANIMATION */
@@ -50,7 +65,7 @@ div.svg-bg img {
     }
 }
 
-@media (min-width: 900px) {
+@media (min-width: 1166px) {
     section.intro {
         flex-direction: row;
         justify-content: space-around;

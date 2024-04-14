@@ -5,7 +5,7 @@ import { List, Github, Linkedin } from 'react-bootstrap-icons';
 export default function Header() {
 
 
-    const [toggle, setToggle] = useState(true ? window.innerWidth >= 650: false);
+    const [toggle, setToggle] = useState(true ? window.innerWidth >= 777: false);
 
     const onclick = () => {
         if (!toggle)
@@ -15,7 +15,7 @@ export default function Header() {
     }
 
     window.addEventListener("resize", () => {
-        if(window.innerWidth <= 650)
+        if(window.innerWidth <= 777)
             setToggle(false);
         else
             setToggle(true);
