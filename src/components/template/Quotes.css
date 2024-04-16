@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Sedan:ital@0;1&display=swap');
+
+aside::before {
+    content: "\201C";
+    font-weight: bold;
+    font-size: 8em;
+}
+
+aside::after {
+    content: "\201E";
+    font-weight: bold;
+    font-size: 8em;
+}
+
+.qt {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: red;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    height: 450px;
+}
+
+p, aside::before, aside::after {
+    font-family: "Sedan", serif;
+    font-weight: 200;
+    font-style: italic;
+}
+
+p {
+    font-size: 25px;
+}
+
+h2 {
+    justify-self: center;
+}

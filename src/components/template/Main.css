@@ -2,5 +2,4 @@ main.content {
     display: flex;
     flex-direction: column;
     gap: 10vh;
-    padding: 0 20px;
 }
