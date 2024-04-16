@@ -5,9 +5,12 @@ import Cards from './Cards';
 import Skills from './Skills';
 //import Quotes from './Quotes';
 
-export default props =>
-    <main className="content">
-        <IntroBg />
-        <Cards />
-        <Skills />
-    </main>
+export default function Main() {
+    return (
+        <main className="content">
+            <IntroBg />
+            <Cards />
+            <Skills />
+        </main>
+    )
+}
