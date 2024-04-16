@@ -1,6 +1,6 @@
 import React from "react";
 import './IntroBg.css';
-import svgBg from '../../assets/svg-bg.svg'
+//import svgBg from '../../assets/svg-bg.svg'
 import CircuitSvg from '../../assets/Circuit-svg'
 
 export default function IntroBg() {
