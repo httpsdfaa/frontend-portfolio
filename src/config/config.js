@@ -1,6 +1,6 @@
 module.exports = {
     development: {
-        url: '',
-        url_test: 'https://backend-portfolio-ecru.vercel.app/auth/form'
+        url: 'https://backend-portfolio-ecru.vercel.app/',
+        url_test: 'http://localhost:3001/auth/form'
     }
 }

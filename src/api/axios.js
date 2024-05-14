@@ -8,7 +8,7 @@ module.exports = (nameParam, surnameParam, emailParam, messageParam) => {
 
     axios({
         method: "post",
-        url: url_test,
+        url: url,
         data: {
             name: nameParam,
             surname: surnameParam,
