@@ -3,7 +3,7 @@ div.div-li-icon {
     gap: 25px;
 }
 
-div.frontend h3, ul, div.backend h3, ul {
+div.frontend h3, ul, div.backend h3, ul, div.data-analysis > h3 {
     color: #fff;
     font-weight: 300;
 }
@@ -15,7 +15,7 @@ section.skills h1 {
 section.skills {
     display: flex;
     flex-direction: column;
-    gap: 30px;
+    gap: 30px; 
     padding: 0 20px;
 }
 

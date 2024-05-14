@@ -4,6 +4,7 @@ import IntroBg from './IntroBg';
 import Cards from './Cards';
 import Skills from './Skills';
 import Quotes from './Quotes';
+import Certificates from './Certificates';
 
 export default function Main() {
     return (
@@ -11,6 +12,7 @@ export default function Main() {
             <IntroBg />
             <Quotes />
             <Cards />
+            <Certificates />
             <Skills />
         </main>
     )

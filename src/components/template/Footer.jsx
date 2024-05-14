@@ -108,7 +108,7 @@ export default class Footer extends React.Component {
                     </form>
                 </section>
                 <span className="developer">
-                    Feito por <a href='https://github.com/fernandedfa' >Deivison Fernandes</a> - 2022
+                    Feito por <a href='https://github.com/httpsdfaa'>Deivison Fernandes</a> - 2022
                 </span>
             </footer>
         )

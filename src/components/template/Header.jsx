@@ -36,7 +36,9 @@ export default function Header() {
                             <a href="#portfolio" rel="noreferrer">
                                 <li>Portfólio</li>
                             </a>
-
+                            <a href="#certificate" rel="noreferrer">
+                                <li>Certificado</li>
+                            </a>
                             <a href="#skills" rel="noreferrer">
                                 <li>Skills</li>
                             </a>

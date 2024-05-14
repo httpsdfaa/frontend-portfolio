@@ -1,0 +1,29 @@
+section.card-ct > a img {
+    width: 350px;
+    height: auto;
+}
+
+section.card-ct {
+    margin: 20px;
+    transition: transform 0.7s;
+}
+
+section.card-ct:hover {
+    transform: scale(1.2);
+}
+
+h1.title-ct {
+  text-align: center;  
+}
+
+div.ct {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+@media (min-width: 800px){
+    div.ct {
+        padding: 0 200px 0 200px;
+    }
+}

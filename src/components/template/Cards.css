@@ -18,15 +18,16 @@ section.card {
     justify-content: center;
     align-items: center;
     background-color: hsla(0,0%,100%,.8);
-    width: 260px;
+    width: 310px;
     height: 750px;
     padding: 30px;
     box-shadow: var(--card-shadow);
     border-radius: 10px;
     transition: transform 0.7s;
+    
 }
 
-section.card span, h2, ul, a, li {
+section.card > span, section.card > h2, section.card > ul > li, section.card > ul, section.card > a{
     font-weight: 300;
     align-self: flex-start;
     color: rgb(44, 44, 44);
@@ -40,6 +41,7 @@ section.card a {
 section.card > ul > div {
     display: flex;
     gap: 25px;
+    color: #000000;
 }
 
 div.div-li-icon {
@@ -72,9 +74,9 @@ div.div-li-icon {
     margin-bottom: 25px;
 }
 
-@media (min-width: 650px){
+@media (min-width: 542px){
     section.card {
-        width: 450px;
+        width: 460px;
     }
 
     section.cards-body {
