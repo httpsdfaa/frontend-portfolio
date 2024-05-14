@@ -4,6 +4,7 @@ export default props =>
     <div className='qt-div'>
         <section className='qt'>
             <h2 className='quote-title'>Bill Gates</h2>
+            <hr></hr>
             <aside>
                 <blockquote>
                     <p className='msg'>
@@ -12,5 +13,6 @@ export default props =>
                     </p>
                 </blockquote>
             </aside>
+            <hr></hr>
         </section>
     </div>

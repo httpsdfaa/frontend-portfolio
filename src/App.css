@@ -26,6 +26,49 @@ ul {
     background: var(--bg-background-global); 
     font-family: var(--ft-poppins-regular);
     color: var(--ft-color);
-    min-width: 430px;
+    min-width: 350px;
     overflow-x: visible;
 }
+
+
+/* Adiciona uma borda curva ao scrollbar */
+::-webkit-scrollbar {
+    width: 8px; /* Largura do scrollbar */
+  }
+  
+  /* Personaliza o fundo do scrollbar */
+  ::-webkit-scrollbar-track {
+    background: #f1f1f1; /* Cor de fundo */
+  }
+  
+  /* Personaliza a barra de rolagem */
+  ::-webkit-scrollbar-thumb {
+    background: #888; /* Cor da barra de rolagem */
+    border-radius: 10px; /* Arredonda as bordas */
+  }
+  
+  /* Personaliza a barra de rolagem quando passa o mouse por cima */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #555; /* Cor da barra de rolagem ao passar o mouse */
+  }
+
+  
+
+/* Adiciona uma animação suave ao scroll */
+html {
+    scroll-behavior: smooth;
+  }
+
+/* Personaliza o scroll horizontal */
+::-webkit-scrollbar {
+    height: 10px;
+  }
+  
+  ::-webkit-scrollbar-track {
+    background: #f1f1f1;
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    background: #888;
+  }
+  

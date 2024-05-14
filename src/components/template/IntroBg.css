@@ -2,23 +2,17 @@
 
 div.intro h2 {
     color: #5323bb;
-    font-size: 55px;
-    margin: 10px;
-}
-
-div.intro p, h1 {
-    color: white;
-    font-size: 85px;
+    font-size: 30px;
     margin: 10px;
 }
 
 div.intro h1 {
-    font-size: 40px;
+    font-size: 50px;
 }
 
 div.intro p {
     color: white;
-    font-size: 25px;
+    font-size: 22px;
     font-weight: 200;
     margin: 10px;
 }
@@ -26,6 +20,7 @@ div.intro p {
 section.intro {
     display: flex;
     flex-direction: column;
+    width: 100%;
     align-items: center;
     justify-content: center;
     text-align: center;

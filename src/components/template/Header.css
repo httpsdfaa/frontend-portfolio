@@ -12,11 +12,12 @@ section.icons-social, section.menu, section.logo {
 }
 
 span.logo {
-    background: #dededf;
+    /* background: #dededf;
     padding: 7px;
-    border-radius: 999px;
+    border-radius: 999px; */
     font-size: 18px;
-    color: #3b82f6;
+    color: #ffffff;
+    font-weight: 600;
 }
 
 nav.nav {
@@ -62,7 +63,7 @@ nav.nav > ul a {
 
 span.logo:hover {
     color: #000;
-    transition-duration: 0.7s;
+    transition-duration: 12s;
     cursor: pointer;
 }
 

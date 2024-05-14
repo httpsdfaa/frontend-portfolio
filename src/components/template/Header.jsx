@@ -24,7 +24,7 @@ export default function Header() {
     return (
         <header className="header">
             <section className="logo">
-                <span className="logo">{`< D />`}</span>
+                <span className="logo">Deivison</span>
             </section>
             <section className="menu" onClick={onclick}><List size={32} /></section>
 
@@ -49,8 +49,8 @@ export default function Header() {
             }
 
             <section className="icons-social">
-                <a href="https://github.com/fernandedfa" target="_blank" rel="noopener noreferrer"><Github size={25} /></a>
-                <a href="https://br.linkedin.com/in/deivisonfernandes" target="_blank" rel="noopener noreferrer">  <Linkedin size={25} /></a>
+                <a href="https://github.com/httpsdfaa" target="_blank" rel="noopener noreferrer"><Github size={20} /></a>
+                <a href="https://br.linkedin.com/in/deivisonfernandes" target="_blank" rel="noopener noreferrer">  <Linkedin size={20} /></a>
             </section>
         </header>
     )

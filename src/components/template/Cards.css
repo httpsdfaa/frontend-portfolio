@@ -8,6 +8,10 @@ section.cards-body {
     flex-wrap: wrap;
 }
 
+section.card:hover{
+    transform: scale(1.1);
+}
+
 section.card {
     display: flex;
     flex-direction: column;
@@ -19,12 +23,18 @@ section.card {
     padding: 30px;
     box-shadow: var(--card-shadow);
     border-radius: 10px;
+    transition: transform 0.7s;
 }
 
-section.card span, h2, ul {
+section.card span, h2, ul, a, li {
     font-weight: 300;
     align-self: flex-start;
     color: rgb(44, 44, 44);
+}
+
+section.card a {
+    font-weight: 400;
+    color: rgb(57, 57, 202);
 }
 
 section.card > ul > div {
@@ -36,9 +46,14 @@ div.div-li-icon {
     margin-bottom: 20px;
 }
 
-[cardImg="esteticaWidth"] {
-    width: 250px;
-    height: 354.36px;   
+[cardImg="cpfWith"] {
+    width: 300px;
+    height: auto; 
+}
+
+[cardImg="listaWith"] {
+    width: 300px;
+    height: auto;   
 }
 
 [cardImg="portfolioWidth"] {

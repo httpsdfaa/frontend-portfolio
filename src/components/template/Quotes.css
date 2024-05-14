@@ -1,5 +1,22 @@
 @import url('https://fonts.googleapis.com/css2?family=Sedan:ital@0;1&display=swap');
 
+section.qt {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid transparent;
+    box-shadow: 0 0 10px 5px rgba(82, 85, 247, 0.233);
+}
+
+section.qt h2 {
+    align-self: center;
+}
+
+hr {
+    width: 10%;
+    border: 0.5px solid rgb(235, 203, 189);
+}
 
 div.qt-div {
     text-align: center;
@@ -7,32 +24,13 @@ div.qt-div {
 }
 
 section.qt {
-    background: rgb(219, 219, 219);
+    background: rgba(97, 100, 255, 0.233);
     height: 100%;
 }
 
-/*aside::before {
-    position: absolute;
-    content: "\201C";
-    background: green;
-    left: 0;
-    font-size: 5em;
-    line-height: 0;
-}
-
-aside::after {
-    position: absolute;
-    content: "\201E";
-    background: green;
-    right: 0;
-    font-size: 5em;
-    line-height: 0;
-    bottom: -33px;
-}*/
-
-p.msg, aside::before, aside::after {
+p.msg {
     font-family: "Sedan", serif;
-    font-weight: 200;
+    font-weight: 100;
     font-style: italic;
 }
 
