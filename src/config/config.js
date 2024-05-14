@@ -1,5 +1,6 @@
 module.exports = {
     development: {
-        url: 'https://backend-portfolio-dfaa.herokuapp.com/auth/form'
+        url: '',
+        url_test: 'https://backend-portfolio-ecru.vercel.app/auth/form'
     }
 }
