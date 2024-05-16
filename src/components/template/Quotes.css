@@ -1,12 +1,21 @@
 @import url('https://fonts.googleapis.com/css2?family=Sedan:ital@0;1&display=swap');
 
+div.qt-div {
+    display: flex;
+    width: auto;
+    border: 2px solid transparent;
+    box-shadow: 0 0 10px 5px rgba(82, 85, 247, 0.233);
+    justify-content: space-around;
+    align-items: center;
+}
+
 section.qt {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    border: 2px solid transparent;
-    box-shadow: 0 0 10px 5px rgba(82, 85, 247, 0.233);
+    /* border: 2px solid transparent;
+    box-shadow: 0 0 10px 5px rgba(82, 85, 247, 0.233); */
 }
 
 section.qt h2 {
@@ -42,41 +51,13 @@ h2 {
     margin: 0 0 40px 0;
 }
 
-/*aside::before {
-    position: absolute;
-    content: "\201C";
-    font-weight: bold;
-    font-size: 5em;
+@media (max-width: 1000px) {
+    div.qt-div {
+        flex-direction: column;
+        height: auto;
+    }
+
+    [maxWidth='true'] {
+        margin: 20px 0 60px 0;
+    }
 }
-
-aside::after {
-    position: absolute;
-    content: "\201E";
-    font-weight: bold;
-    font-size: 5em;
-}
-
-aside {
-    background: green;
-}
-
-.qt {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background: red;
-    width: 100%;
-    margin: 0;
-    padding: 0;
-    height: 450px;
-}
-
-
-
-p {
-    font-size: 25px;
-}
-
-h2 {
-    justify-self: center;
-}*/

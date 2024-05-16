@@ -24,6 +24,7 @@ export default function Header() {
     return (
         <header className="header">
             <section className="logo">
+            
                 <span className="logo">Deivison</span>
             </section>
             <section className="menu" onClick={onclick}><List size={32} /></section>
@@ -36,7 +37,7 @@ export default function Header() {
                             <a href="#portfolio" rel="noreferrer">
                                 <li>Portfólio</li>
                             </a>
-                            <a href="#certificate" rel="noreferrer">
+                            <a href="#certificates" rel="noreferrer">
                                 <li>Certificado</li>
                             </a>
                             <a href="#skills" rel="noreferrer">

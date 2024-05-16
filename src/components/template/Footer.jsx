@@ -1,5 +1,6 @@
 import React from 'react';
 import './Footer.css';
+
 const axiosApi = require('../../api/axios');
 
 export default class Footer extends React.Component {
@@ -108,7 +109,7 @@ export default class Footer extends React.Component {
                     </form>
                 </section>
                 <span className="developer">
-                    Feito por <a href='https://github.com/httpsdfaa'>Deivison Fernandes</a> - 2022
+                    Design by <a href='https://github.com/httpsdfaa'>Deivison Fernandes</a>  2022 - 2024
                 </span>
             </footer>
         )

@@ -1,18 +1,20 @@
 import './Quotes.css'
 
+import LinkedInBadge from './LinkedinSelo'
+
 export default props =>
     <div className='qt-div'>
-        <section className='qt'>
-            <h2 className='quote-title'>Bill Gates</h2>
+        <section className='qt' maxWidth='true'>
+            <h2 className='quote-title'>Albert Einstein</h2>
             <hr></hr>
             <aside>
                 <blockquote>
                     <p className='msg'>
-                        A maneira como você coleta, gerencia e utiliza as informações
-                        determina se você vai verncer ou perder
+                        A definição de insanidade é fazer a mesma coisa repetidamente e esperar resultados diferentes
                     </p>
                 </blockquote>
             </aside>
             <hr></hr>
         </section>
+        <LinkedInBadge maxWidth='true'/>
     </div>

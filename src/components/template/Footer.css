@@ -12,6 +12,14 @@ footer.footer {
     padding: 0 0 50px 0;
 }
 
+span.developer a, span.developer {
+    font-size: 13px;
+}
+
+span.developer {
+    color: #cecece;
+}
+
 input, textarea {
     width: 250px;
 }

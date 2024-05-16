@@ -26,7 +26,7 @@ ul {
     background: var(--bg-background-global); 
     font-family: var(--ft-poppins-regular);
     color: var(--ft-color);
-    min-width: 350px;
+    min-width: 390px;
     overflow-x: visible;
 }
 
