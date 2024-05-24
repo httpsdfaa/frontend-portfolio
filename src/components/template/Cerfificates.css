@@ -22,6 +22,10 @@ div.ct {
     justify-content: center;
 }
 
+[heightEdit="heightEdit"]{
+    height: 271px;
+}
+
 @media (min-width: 800px){
     div.ct {
         padding: 0 200px 0 200px;

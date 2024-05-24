@@ -9,7 +9,7 @@ function App() {
   return (
     <React.Fragment>
 
-      <div className="App">
+      <div className="App-pt">
         <Header />
         <Main />
         <Footer />

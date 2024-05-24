@@ -20,7 +20,7 @@ ul {
     padding: 0;
 }
 
-.App {
+.App-pt {
     display: grid;
     grid-template-rows: 100px auto auto;
     background: var(--bg-background-global); 

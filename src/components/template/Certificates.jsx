@@ -5,6 +5,9 @@ import dataCert from '../../assets/img/coursera-data.png'
 import qtCert from '../../assets/img/coursera-qt.png'
 import rCert from '../../assets/img/coursera-r.png'
 import jsCert from '../../assets/img/javascript.png'
+import emBreve1 from '../../assets/img/embreve1.png'
+import emBreve2 from '../../assets/img/embreve2.png'
+
 
 export default function Certificates() {
     return (
@@ -13,12 +16,12 @@ export default function Certificates() {
             <div className="ct">
                 <section className="card-ct">
                     <a href="https://www.coursera.org/account/accomplishments/verify/VHMBJV7JB5QZ">
-                        <img src={explorationCert} alt="Certificado " />
+                        <img src={explorationCert} alt="Certificado Exploração" />
                     </a>
                 </section>
                 <section className="card-ct">
                     <a href="https://www.coursera.org/account/accomplishments/certificate/MXDQYAR4MNVU">
-                        <img src={dataCert} alt="Certificado " />
+                        <img src={dataCert} alt="Certificado Data" />
                     </a>
                 </section>
                 <section className="card-ct">
@@ -36,6 +39,17 @@ export default function Certificates() {
                         <img src={jsCert} alt="Certificado " />
                     </a>
                 </section>
+                <section className="card-ct">
+                    <a href="_">
+                        <img src={emBreve1} alt="Certificado Em breve" heightEdit="heightEdit"/>
+                    </a>
+                </section>
+                <section className="card-ct">
+                    <a href="_">
+                        <img src={emBreve2} alt="Certificado Em breve"/>
+                    </a>
+                </section>
+
             </div>
         </>
     )
