@@ -7,6 +7,8 @@ import rCert from '../../assets/img/coursera-r.png'
 import jsCert from '../../assets/img/javascript.png'
 import emBreve1 from '../../assets/img/embreve1.png'
 import emBreve2 from '../../assets/img/embreve2.png'
+import pdCert from '../../assets/img/data-processing.png'
+import answerCert from '../../assets/img/answer-questions.png'
 
 
 export default function Certificates() {
@@ -14,6 +16,16 @@ export default function Certificates() {
         <>
             <h1 className="title-ct" id="certificates">Certificados</h1>
             <div className="ct">
+                <section className="card-ct">
+                    <a href="https://www.coursera.org/account/accomplishments/verify/6JJ5PMK6D4XP">
+                        <img src={answerCert} alt="Certificado Responder Perguntas" />
+                    </a>
+                </section>
+                <section className="card-ct">
+                    <a href="https://www.coursera.org/account/accomplishments/verify/97SPLWXG92AH">
+                        <img src={pdCert} alt="Certificado Processar Dados" />
+                    </a>
+                </section>
                 <section className="card-ct">
                     <a href="https://www.coursera.org/account/accomplishments/verify/VHMBJV7JB5QZ">
                         <img src={explorationCert} alt="Certificado Exploração" />
