@@ -5,12 +5,12 @@ import LinkedInBadge from './LinkedinSelo'
 export default props =>
     <div className='qt-div'>
         <section className='qt' maxWidth='true'>
-            <h2 className='quote-title'>Alan Turing</h2>
+            <h2 className='quote-title'>Sean Rad</h2>
             <hr></hr>
             <aside>
                 <blockquote>
                     <p className='msg'>
-                        Those who can imagine anything, can create the impossible.
+                        Os dados batem as emoções.
                     </p>
                 </blockquote>
             </aside>
